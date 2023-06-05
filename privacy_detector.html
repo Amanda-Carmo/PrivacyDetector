@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Privacy Detector</title>
+    <link rel="stylesheet" type="text/css" href="privacy_detector.css">
+    </head>
+    <body>
+        <div class="panel">
+            <div class="panel-header" id="headerPanel">
+                <h1>Privacy Detector</h1>
+                <div class="text-section-header" id="header-subtitle"></div>
+            </div>
+
+            <div class="panel-body">
+                <ul id="cookie-numbers" class="cookie-box"></ul>
+
+                <br>
+
+                <div class="dropdown">
+                    <ul id="third_party_numbers" class="box"></ul>
+                    <div class="dropdown-content">
+                        <ul id="third_party_conn" class="detail-box"></ul>
+                    </div>
+                </div>    
+                
+                <br>
+                
+                <div class="dropdown">
+                    <ul id="local-numbers" class="box"></ul>
+                    <div class="dropdown-content">
+                        <ul id="local-storage" class="detail-box"> </ul>
+                    </div>
+                </div>
+                
+                <br>
+
+                <div class="dropdown">
+                    <ul id="session-numbers" class="box"></ul>
+                    <div class="dropdown-content">
+                        <ul id="session-storage" class="detail-box"> </ul>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="dropdown">
+                    <ul id="canvas-fingerprinting" class="box"></ul>
+                    <div class="dropdown-content">
+                        <ul id="cf-details" class="detail-box"> </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <script src="privacy_detector.js"></script>
+    </body>
+</html>
